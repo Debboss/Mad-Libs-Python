@@ -1,0 +1,16 @@
+# mad libs
+
+def poem():
+    colour = input("Enter a colour: ");
+    plural_noun = input("Enter a plural noun: ");
+    celebrity = input("Enter a celebrity: ");
+    return colour, plural_noun, celebrity
+
+# call the function and store the returned values
+colour, plural_noun, celebrity = poem();
+
+# display the user's inputs
+print(f"Roses are {colour}");
+print(f"{plural_noun} are blue");
+print("I love {celebrity}");
+
